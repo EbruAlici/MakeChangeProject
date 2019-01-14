@@ -2,7 +2,6 @@ package com.skilldistillery.makechange;
 
 import java.util.Scanner;
 
-//use methods
 public class MakeChangeApp {
 
 	public static void main(String[] args) {
@@ -100,13 +99,14 @@ public class MakeChangeApp {
 			}
 			pennies = pennies % 5;
 		}
+
 		if (pennies == 1) {
-			System.out.println(pennies + "penny");
+			System.out.println(pennies + " penny");
+		} else if (pennies < 1) {
+			System.out.println();
+		} else {
+			System.out.println(pennies + " pennies ");
 		}
-		else {
-		System.out.println(pennies + " pennies ");
-		}
-	
+
 	}
-	
 }
