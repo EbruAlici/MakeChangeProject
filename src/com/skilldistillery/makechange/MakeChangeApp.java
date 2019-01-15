@@ -75,7 +75,7 @@ public class MakeChangeApp {
 		int quarters = pennies / 25;
 		if (quarters > 0) {
 			if (quarters == 1) {
-				System.out.println(quarters + " quarder");
+				System.out.println(quarters + " quarter");
 			} else {
 				System.out.println(quarters + " quarters ");
 			}
